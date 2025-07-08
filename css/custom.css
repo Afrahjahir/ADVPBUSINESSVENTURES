@@ -340,7 +340,7 @@ body{
 	right: 0;
 	bottom: 0;
 	z-index: 1000;
-	background-color: #0a4d68;
+	background-color: #336eb1;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -374,7 +374,7 @@ body{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	max-width: 66px;
+	max-width: 400px;
 	transform: translate(-50%, -50%);
 }
 
@@ -443,7 +443,7 @@ body{
 }
 
 .section-title h2{
-	font-size: 44px;
+	font-size: 40px;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: -0.02em;
@@ -495,9 +495,10 @@ header.main-header{
 	position: sticky;
 	top: 0;
 	width: 100%;
-	border-bottom: 1px solid var(--dark-divider-color);
+	border-bottom: 1px solid #b9b9b94a;
 	z-index: 100;
 	background: #ffff;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 	/* padding: 30px; */
 }
 
@@ -539,6 +540,9 @@ header.main-header .header-sticky.active{
 	.navbar-brand{
 	padding: 0;
 	margin-left: 0px;
+}
+.about-us {
+    padding: 21px 0 !important;
 }
 }
 .main-menu .nav-menu-wrapper{
@@ -743,9 +747,9 @@ header.main-header .header-sticky.active{
 
 .slicknav_menu{
 	position: absolute;
-    width: 100%;
+	width: 100%;
 	padding: 0;
-	background: var(--accent-color);
+	background: #3362b1;
 }
 
 .slicknav_menu ul{
@@ -774,7 +778,7 @@ header.main-header .header-sticky.active{
 .slicknav_nav a:focus,
 .slicknav_nav .slicknav_row:hover{
 	background-color: transparent;
-	color: var(--primary-color);
+	color: #e9a042;
 }
 
 .slicknav_menu ul ul li a{
@@ -997,7 +1001,7 @@ header.main-header .header-sticky.active{
 	background: url(../images/about-us-bg.svg);
 	background-position: right center;
 	background-size: auto;
-	padding: 18px 0 80px;
+	padding: 87px 0 80px;
 	background-repeat: no-repeat;
 }
 
@@ -1644,6 +1648,7 @@ header.main-header .header-sticky.active{
 	font-size: 22px;
 	text-transform: capitalize;
 	margin-bottom: 10px;
+	color: #023e7d;
 }
 
 .amenities-item-content p{
@@ -2624,7 +2629,7 @@ header.main-header .header-sticky.active{
 .vision-mission-nav ul li .nav-link:hover{
     padding: 10px 15px;
     color: #f9f9f9;
-    background: #0a4d68;
+    background: #25352f;
 }
 
 .vision-mission-content-body p:last-child{
@@ -2750,8 +2755,8 @@ header.main-header .header-sticky.active{
 }
 
 .cta-box{
-    /* padding: 50px 0 0; */
-    background: url(../images/Advpimages/CTA-ADVP.webp), #1c4967a8;
+    /* padding: 27px 0 0; */
+    background: url(../images/Advpimages/cta-About\ Us.webp), #1c4967a8;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-size: auto; */
@@ -2759,6 +2764,7 @@ header.main-header .header-sticky.active{
 
 .cta-box-content{
     margin-left: 70px;
+    margin: 80px;
 }
 
 .cta-box-img figure{
